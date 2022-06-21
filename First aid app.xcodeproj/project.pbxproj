@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		903531426AA6172BA85CDD5A /* Pods_First_aid_app.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3251C18D4BA69E79543B4447 /* Pods_First_aid_app.framework */; };
+		9F3B03C22832CE3200722E25 /* PressureListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F3B03C12832CE3200722E25 /* PressureListViewController.swift */; };
+		9F3B03C52832CF8D00722E25 /* PressureCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F3B03C32832CF8D00722E25 /* PressureCell.swift */; };
+		9F3B03C62832CF8D00722E25 /* PressureCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F3B03C42832CF8D00722E25 /* PressureCell.xib */; };
+		9F3B03C92832D42300722E25 /* Pressure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F3B03C82832D42300722E25 /* Pressure.swift */; };
+		9F3B03CB2833E35000722E25 /* AddPressureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F3B03CA2833E35000722E25 /* AddPressureViewController.swift */; };
+		9F3B03CD28369A2300722E25 /* SugarListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F3B03CC28369A2300722E25 /* SugarListViewController.swift */; };
+		9F3B03CF28369B2500722E25 /* AddSugarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F3B03CE28369B2500722E25 /* AddSugarViewController.swift */; };
+		9F3B03D128369EA700722E25 /* Sugar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F3B03D028369EA700722E25 /* Sugar.swift */; };
+		9F3B03D42836B0F100722E25 /* SugarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F3B03D22836B0F100722E25 /* SugarCell.swift */; };
+		9F3B03D52836B0F100722E25 /* SugarCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F3B03D32836B0F100722E25 /* SugarCell.xib */; };
+		9F3B03D72837F27D00722E25 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F3B03D62837F27D00722E25 /* ProfileViewController.swift */; };
+		9F3B03D9283EACB900722E25 /* PickAilmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F3B03D8283EACB900722E25 /* PickAilmentViewController.swift */; };
+		9F3B03DB283EBB4500722E25 /* DisplayInstructionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F3B03DA283EBB4500722E25 /* DisplayInstructionsViewController.swift */; };
+		9F3B03DF2848EC3A00722E25 /* PickQuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F3B03DE2848EC3A00722E25 /* PickQuizViewController.swift */; };
+		9F3B03E12848EE9C00722E25 /* QuizInProgressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F3B03E02848EE9C00722E25 /* QuizInProgressViewController.swift */; };
+		9F3B03E32848F0F200722E25 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F3B03E22848F0F200722E25 /* Question.swift */; };
+		9F3B03E52848F14400722E25 /* Answer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F3B03E42848F14400722E25 /* Answer.swift */; };
+		9F3B03E7284A6B9500722E25 /* QuizResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F3B03E6284A6B9500722E25 /* QuizResultsViewController.swift */; };
+		9F4F5B3B282AA78400982A26 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F4F5B3A282AA78400982A26 /* AppDelegate.swift */; };
+		9F4F5B3D282AA78400982A26 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F4F5B3C282AA78400982A26 /* SceneDelegate.swift */; };
+		9F4F5B3F282AA78400982A26 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F4F5B3E282AA78400982A26 /* ViewController.swift */; };
+		9F4F5B42282AA78400982A26 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F4F5B40282AA78400982A26 /* Main.storyboard */; };
+		9F4F5B44282AA78500982A26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F4F5B43282AA78500982A26 /* Assets.xcassets */; };
+		9F4F5B47282AA78500982A26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F4F5B45282AA78500982A26 /* LaunchScreen.storyboard */; };
+		9F4F5B4F282AB6F900982A26 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9F4F5B4E282AB6F900982A26 /* GoogleService-Info.plist */; };
+		9F4F5B65282AF38200982A26 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F4F5B64282AF38200982A26 /* LogInViewController.swift */; };
+		9F4F5B67282AF3BB00982A26 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F4F5B66282AF3BB00982A26 /* RegisterViewController.swift */; };
+		9F4F5B69282BFE8800982A26 /* LoggedMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F4F5B68282BFE8800982A26 /* LoggedMainViewController.swift */; };
+		9F4F5B6C282EA3B900982A26 /* MedicinesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F4F5B6A282EA3B900982A26 /* MedicinesCell.swift */; };
+		9F4F5B6D282EA3B900982A26 /* MedicinesCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F4F5B6B282EA3B900982A26 /* MedicinesCell.xib */; };
+		9F4F5B6F282EA6D900982A26 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F4F5B6E282EA6D900982A26 /* Constants.swift */; };
+		9F4F5B71282EA7F100982A26 /* MedicinesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F4F5B70282EA7F100982A26 /* MedicinesViewController.swift */; };
+		9F4F5B73282EAA6900982A26 /* Medicines.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F4F5B72282EAA6900982A26 /* Medicines.swift */; };
+		9FDAC8092852926E009B1123 /* DonateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FDAC8082852926E009B1123 /* DonateViewController.swift */; };
+		9FDAC80B2852927E009B1123 /* InformationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FDAC80A2852927E009B1123 /* InformationsViewController.swift */; };
+		9FDAC80E28550DC5009B1123 /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 9FDAC80D28550DC5009B1123 /* IQKeyboardManagerSwift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3093E67C7BFD47CF42BF1AB9 /* Pods-First aid app.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-First aid app.debug.xcconfig"; path = "Target Support Files/Pods-First aid app/Pods-First aid app.debug.xcconfig"; sourceTree = "<group>"; };
+		3251C18D4BA69E79543B4447 /* Pods_First_aid_app.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_First_aid_app.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F3B03C12832CE3200722E25 /* PressureListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PressureListViewController.swift; sourceTree = "<group>"; };
+		9F3B03C32832CF8D00722E25 /* PressureCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PressureCell.swift; sourceTree = "<group>"; };
+		9F3B03C42832CF8D00722E25 /* PressureCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PressureCell.xib; sourceTree = "<group>"; };
+		9F3B03C82832D42300722E25 /* Pressure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pressure.swift; sourceTree = "<group>"; };
+		9F3B03CA2833E35000722E25 /* AddPressureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPressureViewController.swift; sourceTree = "<group>"; };
+		9F3B03CC28369A2300722E25 /* SugarListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SugarListViewController.swift; sourceTree = "<group>"; };
+		9F3B03CE28369B2500722E25 /* AddSugarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddSugarViewController.swift; sourceTree = "<group>"; };
+		9F3B03D028369EA700722E25 /* Sugar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sugar.swift; sourceTree = "<group>"; };
+		9F3B03D22836B0F100722E25 /* SugarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SugarCell.swift; sourceTree = "<group>"; };
+		9F3B03D32836B0F100722E25 /* SugarCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SugarCell.xib; sourceTree = "<group>"; };
+		9F3B03D62837F27D00722E25 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		9F3B03D8283EACB900722E25 /* PickAilmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickAilmentViewController.swift; sourceTree = "<group>"; };
+		9F3B03DA283EBB4500722E25 /* DisplayInstructionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayInstructionsViewController.swift; sourceTree = "<group>"; };
+		9F3B03DE2848EC3A00722E25 /* PickQuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickQuizViewController.swift; sourceTree = "<group>"; };
+		9F3B03E02848EE9C00722E25 /* QuizInProgressViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizInProgressViewController.swift; sourceTree = "<group>"; };
+		9F3B03E22848F0F200722E25 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		9F3B03E42848F14400722E25 /* Answer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Answer.swift; sourceTree = "<group>"; };
+		9F3B03E6284A6B9500722E25 /* QuizResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizResultsViewController.swift; sourceTree = "<group>"; };
+		9F4F5B37282AA78400982A26 /* First aid app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "First aid app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F4F5B3A282AA78400982A26 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9F4F5B3C282AA78400982A26 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9F4F5B3E282AA78400982A26 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9F4F5B41282AA78400982A26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9F4F5B43282AA78500982A26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9F4F5B46282AA78500982A26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9F4F5B48282AA78500982A26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F4F5B4E282AB6F900982A26 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		9F4F5B64282AF38200982A26 /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		9F4F5B66282AF3BB00982A26 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		9F4F5B68282BFE8800982A26 /* LoggedMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggedMainViewController.swift; sourceTree = "<group>"; };
+		9F4F5B6A282EA3B900982A26 /* MedicinesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicinesCell.swift; sourceTree = "<group>"; };
+		9F4F5B6B282EA3B900982A26 /* MedicinesCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MedicinesCell.xib; sourceTree = "<group>"; };
+		9F4F5B6E282EA6D900982A26 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		9F4F5B70282EA7F100982A26 /* MedicinesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicinesViewController.swift; sourceTree = "<group>"; };
+		9F4F5B72282EAA6900982A26 /* Medicines.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Medicines.swift; sourceTree = "<group>"; };
+		9FDAC8082852926E009B1123 /* DonateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonateViewController.swift; sourceTree = "<group>"; };
+		9FDAC80A2852927E009B1123 /* InformationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationsViewController.swift; sourceTree = "<group>"; };
+		DB0BC57E03FCD22172AA81D2 /* Pods-First aid app.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-First aid app.release.xcconfig"; path = "Target Support Files/Pods-First aid app/Pods-First aid app.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9F4F5B34282AA78400982A26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				903531426AA6172BA85CDD5A /* Pods_First_aid_app.framework in Frameworks */,
+				9FDAC80E28550DC5009B1123 /* IQKeyboardManagerSwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9F4F5B2E282AA78400982A26 = {
+			isa = PBXGroup;
+			children = (
+				9F4F5B39282AA78400982A26 /* First aid app */,
+				9F4F5B38282AA78400982A26 /* Products */,
+				E8AC4B9BD7EBBDB741FDCD8E /* Pods */,
+				E9CA8131E8E848B58722D190 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9F4F5B38282AA78400982A26 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9F4F5B37282AA78400982A26 /* First aid app.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9F4F5B39282AA78400982A26 /* First aid app */ = {
+			isa = PBXGroup;
+			children = (
+				9F4F5B50282AB71D00982A26 /* Model */,
+				9F4F5B51282AB72500982A26 /* View */,
+				9F4F5B52282AB72900982A26 /* Controller */,
+				9F4F5B3A282AA78400982A26 /* AppDelegate.swift */,
+				9F4F5B3C282AA78400982A26 /* SceneDelegate.swift */,
+				9F4F5B43282AA78500982A26 /* Assets.xcassets */,
+				9F4F5B45282AA78500982A26 /* LaunchScreen.storyboard */,
+				9F4F5B48282AA78500982A26 /* Info.plist */,
+				9F4F5B4E282AB6F900982A26 /* GoogleService-Info.plist */,
+				9F4F5B6E282EA6D900982A26 /* Constants.swift */,
+			);
+			path = "First aid app";
+			sourceTree = "<group>";
+		};
+		9F4F5B50282AB71D00982A26 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9F4F5B72282EAA6900982A26 /* Medicines.swift */,
+				9F3B03C82832D42300722E25 /* Pressure.swift */,
+				9F3B03D028369EA700722E25 /* Sugar.swift */,
+				9F3B03E22848F0F200722E25 /* Question.swift */,
+				9F3B03E42848F14400722E25 /* Answer.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9F4F5B51282AB72500982A26 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9F4F5B40282AA78400982A26 /* Main.storyboard */,
+				9F4F5B6A282EA3B900982A26 /* MedicinesCell.swift */,
+				9F4F5B6B282EA3B900982A26 /* MedicinesCell.xib */,
+				9F3B03C32832CF8D00722E25 /* PressureCell.swift */,
+				9F3B03C42832CF8D00722E25 /* PressureCell.xib */,
+				9F3B03D22836B0F100722E25 /* SugarCell.swift */,
+				9F3B03D32836B0F100722E25 /* SugarCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9F4F5B52282AB72900982A26 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9F4F5B3E282AA78400982A26 /* ViewController.swift */,
+				9F4F5B64282AF38200982A26 /* LogInViewController.swift */,
+				9F4F5B66282AF3BB00982A26 /* RegisterViewController.swift */,
+				9F4F5B68282BFE8800982A26 /* LoggedMainViewController.swift */,
+				9F4F5B70282EA7F100982A26 /* MedicinesViewController.swift */,
+				9F3B03C12832CE3200722E25 /* PressureListViewController.swift */,
+				9F3B03CA2833E35000722E25 /* AddPressureViewController.swift */,
+				9F3B03CC28369A2300722E25 /* SugarListViewController.swift */,
+				9F3B03CE28369B2500722E25 /* AddSugarViewController.swift */,
+				9F3B03D62837F27D00722E25 /* ProfileViewController.swift */,
+				9F3B03D8283EACB900722E25 /* PickAilmentViewController.swift */,
+				9F3B03DA283EBB4500722E25 /* DisplayInstructionsViewController.swift */,
+				9F3B03DE2848EC3A00722E25 /* PickQuizViewController.swift */,
+				9F3B03E02848EE9C00722E25 /* QuizInProgressViewController.swift */,
+				9F3B03E6284A6B9500722E25 /* QuizResultsViewController.swift */,
+				9FDAC8082852926E009B1123 /* DonateViewController.swift */,
+				9FDAC80A2852927E009B1123 /* InformationsViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E8AC4B9BD7EBBDB741FDCD8E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3093E67C7BFD47CF42BF1AB9 /* Pods-First aid app.debug.xcconfig */,
+				DB0BC57E03FCD22172AA81D2 /* Pods-First aid app.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E9CA8131E8E848B58722D190 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3251C18D4BA69E79543B4447 /* Pods_First_aid_app.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9F4F5B36282AA78400982A26 /* First aid app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F4F5B4B282AA78500982A26 /* Build configuration list for PBXNativeTarget "First aid app" */;
+			buildPhases = (
+				FB884F79931284E0B5711C50 /* [CP] Check Pods Manifest.lock */,
+				9F4F5B33282AA78400982A26 /* Sources */,
+				9F4F5B34282AA78400982A26 /* Frameworks */,
+				9F4F5B35282AA78400982A26 /* Resources */,
+				43781AC74B79566692A25873 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "First aid app";
+			packageProductDependencies = (
+				9FDAC80D28550DC5009B1123 /* IQKeyboardManagerSwift */,
+			);
+			productName = "First aid app";
+			productReference = 9F4F5B37282AA78400982A26 /* First aid app.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9F4F5B2F282AA78400982A26 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					9F4F5B36282AA78400982A26 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 9F4F5B32282AA78400982A26 /* Build configuration list for PBXProject "First aid app" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9F4F5B2E282AA78400982A26;
+			packageReferences = (
+				9FDAC80C28550DC5009B1123 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
+			);
+			productRefGroup = 9F4F5B38282AA78400982A26 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9F4F5B36282AA78400982A26 /* First aid app */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9F4F5B35282AA78400982A26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F4F5B47282AA78500982A26 /* LaunchScreen.storyboard in Resources */,
+				9F4F5B6D282EA3B900982A26 /* MedicinesCell.xib in Resources */,
+				9F4F5B4F282AB6F900982A26 /* GoogleService-Info.plist in Resources */,
+				9F4F5B44282AA78500982A26 /* Assets.xcassets in Resources */,
+				9F3B03C62832CF8D00722E25 /* PressureCell.xib in Resources */,
+				9F4F5B42282AA78400982A26 /* Main.storyboard in Resources */,
+				9F3B03D52836B0F100722E25 /* SugarCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		43781AC74B79566692A25873 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-First aid app/Pods-First aid app-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-First aid app/Pods-First aid app-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-First aid app/Pods-First aid app-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB884F79931284E0B5711C50 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-First aid app-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9F4F5B33282AA78400982A26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F3B03E7284A6B9500722E25 /* QuizResultsViewController.swift in Sources */,
+				9FDAC8092852926E009B1123 /* DonateViewController.swift in Sources */,
+				9F3B03CD28369A2300722E25 /* SugarListViewController.swift in Sources */,
+				9F3B03DB283EBB4500722E25 /* DisplayInstructionsViewController.swift in Sources */,
+				9F3B03E12848EE9C00722E25 /* QuizInProgressViewController.swift in Sources */,
+				9F3B03CF28369B2500722E25 /* AddSugarViewController.swift in Sources */,
+				9F3B03D42836B0F100722E25 /* SugarCell.swift in Sources */,
+				9F3B03C22832CE3200722E25 /* PressureListViewController.swift in Sources */,
+				9F4F5B3F282AA78400982A26 /* ViewController.swift in Sources */,
+				9F3B03E52848F14400722E25 /* Answer.swift in Sources */,
+				9F3B03C92832D42300722E25 /* Pressure.swift in Sources */,
+				9F4F5B67282AF3BB00982A26 /* RegisterViewController.swift in Sources */,
+				9F3B03E32848F0F200722E25 /* Question.swift in Sources */,
+				9F4F5B3B282AA78400982A26 /* AppDelegate.swift in Sources */,
+				9FDAC80B2852927E009B1123 /* InformationsViewController.swift in Sources */,
+				9F3B03CB2833E35000722E25 /* AddPressureViewController.swift in Sources */,
+				9F3B03D72837F27D00722E25 /* ProfileViewController.swift in Sources */,
+				9F3B03D9283EACB900722E25 /* PickAilmentViewController.swift in Sources */,
+				9F3B03DF2848EC3A00722E25 /* PickQuizViewController.swift in Sources */,
+				9F4F5B69282BFE8800982A26 /* LoggedMainViewController.swift in Sources */,
+				9F4F5B6C282EA3B900982A26 /* MedicinesCell.swift in Sources */,
+				9F3B03C52832CF8D00722E25 /* PressureCell.swift in Sources */,
+				9F4F5B71282EA7F100982A26 /* MedicinesViewController.swift in Sources */,
+				9F3B03D128369EA700722E25 /* Sugar.swift in Sources */,
+				9F4F5B65282AF38200982A26 /* LogInViewController.swift in Sources */,
+				9F4F5B73282EAA6900982A26 /* Medicines.swift in Sources */,
+				9F4F5B3D282AA78400982A26 /* SceneDelegate.swift in Sources */,
+				9F4F5B6F282EA6D900982A26 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9F4F5B40282AA78400982A26 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F4F5B41282AA78400982A26 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9F4F5B45282AA78500982A26 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F4F5B46282AA78500982A26 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9F4F5B49282AA78500982A26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9F4F5B4A282AA78500982A26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9F4F5B4C282AA78500982A26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3093E67C7BFD47CF42BF1AB9 /* Pods-First aid app.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CP69WLX27X;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "First aid app/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.janpalen.First-aid-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9F4F5B4D282AA78500982A26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB0BC57E03FCD22172AA81D2 /* Pods-First aid app.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CP69WLX27X;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "First aid app/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.janpalen.First-aid-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9F4F5B32282AA78400982A26 /* Build configuration list for PBXProject "First aid app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F4F5B49282AA78500982A26 /* Debug */,
+				9F4F5B4A282AA78500982A26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F4F5B4B282AA78500982A26 /* Build configuration list for PBXNativeTarget "First aid app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F4F5B4C282AA78500982A26 /* Debug */,
+				9F4F5B4D282AA78500982A26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9FDAC80C28550DC5009B1123 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.5.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9FDAC80D28550DC5009B1123 /* IQKeyboardManagerSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9FDAC80C28550DC5009B1123 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
+			productName = IQKeyboardManagerSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 9F4F5B2F282AA78400982A26 /* Project object */;
+}

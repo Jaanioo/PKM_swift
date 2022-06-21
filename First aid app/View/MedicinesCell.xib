@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="MedicationsCell" rowHeight="100" id="KGk-i7-Jjw" customClass="MedicinesCell" customModule="First_aid_app" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="100"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="100"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nazwa leku" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LLk-eR-h0K">
+                        <rect key="frame" x="20" y="0.0" width="280" height="45"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                        <color key="textColor" systemColor="systemRedColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dawkowanie: " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W1W-9G-suM">
+                        <rect key="frame" x="16" y="38" width="266" height="24"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Częstotliwość: " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pv7-k2-5Rc">
+                        <rect key="frame" x="16" y="61" width="266" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottomMargin" secondItem="Pv7-k2-5Rc" secondAttribute="bottom" constant="7" id="2FI-Eg-jo5"/>
+                    <constraint firstItem="W1W-9G-suM" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="3Bv-mg-f5z"/>
+                    <constraint firstAttribute="trailing" secondItem="W1W-9G-suM" secondAttribute="trailing" constant="38" id="8mA-4y-s8x"/>
+                    <constraint firstItem="LLk-eR-h0K" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="99s-1K-CAd"/>
+                    <constraint firstAttribute="bottom" secondItem="W1W-9G-suM" secondAttribute="bottom" constant="38" id="BGM-7f-NIK"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="Pv7-k2-5Rc" secondAttribute="trailing" constant="22" id="D6S-kB-qcy"/>
+                    <constraint firstItem="LLk-eR-h0K" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="TSk-kJ-agC"/>
+                    <constraint firstAttribute="bottom" secondItem="LLk-eR-h0K" secondAttribute="bottom" constant="55" id="YST-sm-gFe"/>
+                    <constraint firstItem="W1W-9G-suM" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="38" id="diz-1G-g6z"/>
+                    <constraint firstItem="Pv7-k2-5Rc" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="nJD-vA-rbG"/>
+                    <constraint firstItem="Pv7-k2-5Rc" firstAttribute="top" secondItem="LLk-eR-h0K" secondAttribute="bottom" constant="16" id="rR1-Qe-has"/>
+                    <constraint firstAttribute="trailing" secondItem="LLk-eR-h0K" secondAttribute="trailing" constant="20" id="xl2-XP-JRq"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="medicationNameLabel" destination="LLk-eR-h0K" id="an2-MF-AqB"/>
+                <outlet property="medsFrequencyLabel" destination="Pv7-k2-5Rc" id="gDS-n0-76F"/>
+                <outlet property="medsPortionsLabel" destination="W1W-9G-suM" id="Cny-FE-Lsw"/>
+            </connections>
+            <point key="canvasLocation" x="131.8840579710145" y="150.66964285714286"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
